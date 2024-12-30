@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Exemplo KML com Linhas</name>
+    <description>Este é um exemplo de arquivo KML com duas linhas.</description>
+
+    <Placemark>
+      <name>Linha 1</name>
+      <description>Linha reta com três pontos.</description>
+      <LineString>
+        <coordinates>
+          -43.209,-22.913,0
+          -43.205,-22.915,0
+          -43.200,-22.918,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Linha 2</name>
+      <description>Linha curva com cinco pontos.</description>
+      <LineString>
+        <coordinates>
+          -43.215,-22.920,0
+          -43.212,-22.922,0
+          -43.208,-22.925,0
+          -43.205,-22.928,0
+          -43.200,-22.930,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
